@@ -12,6 +12,8 @@ import { VitrineComponent } from './shared/vitrines/vitrine/vitrine.component';
 import { CardComponent } from './shared/card/card.component';
 import { CestaComponent } from './pages/cesta/cesta.component';
 import { CheckoutComponent } from './pages/checkout/checkout.component';
+import { PagamentoComponent } from './shared/pagamento/pagamento.component';
+import { AdicionaisComponent } from './shared/adicionais/adicionais.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { CheckoutComponent } from './pages/checkout/checkout.component';
     VitrineComponent,
     CardComponent,
     CestaComponent,
-    CheckoutComponent
+    CheckoutComponent,
+    PagamentoComponent,
+    AdicionaisComponent
   ],
   imports: [
     BrowserModule,
