@@ -1,12 +1,47 @@
-<div class="fixed-top">
+<div class="fixed-top menu">
     <nav class="navbar navbar-dark bg-warning">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="row">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <ul>
+            <li><app-busca></app-busca></li>
+            <li><button class="btn btn-outline-success mr-2" type="submit"><i class="fab fa-whatsapp"></i></button></li>
+            <li><button class="btn btn-outline-success mr-2" type="submit"><i class="fas fa-user-check"></i></button></li>
+            <li><button class="btn btn-outline-success mr-2" type="submit"><i class="fas fa-cart-plus"></i></button></li>
+        </ul>
+        
     </nav>
     <div class="collapse" id="navbarToggleExternalContent">
         <div class="bg-dark p-4">
-        <h5 class="text-white h4">Collapsed content</h5>
+        <div class="row">
+            <div class="col-4 text-center">
+                <ul>
+                    <li> <a href="http://"> Aniversários </a></li>
+                    <li> <a href="http://"> Café da Manhã </a></li>
+                    <li> <a href="http://"> Caixas Presente </a></li>
+                    <li> <a href="http://"> Cestas Com Flores </a></li>
+                    <li> <a href="http://"> Cestas para Mãe </a></li>
+                    <li> <a href="http://"> Cestas para Pai </a></li>
+                    <li> <a href="http://"> Especiais </a></li>
+                    <li> <a href="http://"> Flores </a></li>
+                    <li> <a href="http://"> Formatura </a></li>
+                    <li> <a href="http://"> Gre-Nal </a></li>
+                    <li> <a href="http://"> Happy Hour </a></li>
+                    <li> <a href="http://"> Maternidade </a></li>
+                    <li> <a href="http://"> Restrições Especiais </a></li>
+                    <li> <a href="http://"> Românticas </a></li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <app-card-menu></app-card-menu>
+            </div>
+            <div class="col-3">
+                <app-card-menu></app-card-menu>
+            </div>
+            
+        </div>
         </div>
     </div>
 </div>

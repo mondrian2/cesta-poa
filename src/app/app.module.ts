@@ -14,6 +14,10 @@ import { CestaComponent } from './pages/cesta/cesta.component';
 import { CheckoutComponent } from './pages/checkout/checkout.component';
 import { PagamentoComponent } from './shared/pagamento/pagamento.component';
 import { AdicionaisComponent } from './shared/adicionais/adicionais.component';
+import { TituloComponent } from './shared/titulo/titulo.component';
+import { CardMenuComponent } from './shared/card-menu/card-menu.component';
+import { RedeSocialComponent } from './shared/rede-social/rede-social.component';
+import { BuscaComponent } from './shared/busca/busca.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +32,11 @@ import { AdicionaisComponent } from './shared/adicionais/adicionais.component';
     CestaComponent,
     CheckoutComponent,
     PagamentoComponent,
-    AdicionaisComponent
+    AdicionaisComponent,
+    TituloComponent,
+    CardMenuComponent,
+    RedeSocialComponent,
+    BuscaComponent
   ],
   imports: [
     BrowserModule,

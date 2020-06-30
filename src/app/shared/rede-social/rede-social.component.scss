@@ -1,0 +1,14 @@
+.social {
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    ul li {
+        margin-right: 10px;
+        list-style: none;
+    }
+    img {
+        width: 30px;
+    }
+       
+}
